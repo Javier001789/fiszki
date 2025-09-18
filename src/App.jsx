@@ -1,11 +1,16 @@
 
 import './App.css'
+import Flashcard from './flashcard'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div></div>
+   <>
+    <Flashcard question="Ile bedzie 1+1?" answer="2" />
+    <Flashcard question="Ile bedzie 1+1?" answer="2"/>
+    <Flashcard question="Ile bedzie 1+1?" answer="2"/>
+    </>
   )
 }
 
